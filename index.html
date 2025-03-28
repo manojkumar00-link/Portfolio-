@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Portfolio-</title>
+<title>Portfoliooo</title>
 <style>
+/* Body Styling */
 body {
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
-    background-color: #004D40; /* Emerald Green */
-    color: #FFFFFF; /* White text */
+    background-color: #0C0F14; /* Deep Midnight Black */
+    color: #F0E68C; /* Khaki text */
 }
+
+/* Header Styling */
 header {
-    background-color: #FFD700; /* Gold */
-    color: #004D40; /* Emerald Green text */
+    background-color: #FF4500; /* Vivid Orange-Red */
+    color: #0C0F14; /* Dark text for contrast */
     text-align: center;
     padding: 2rem 0;
     position: relative;
 }
 .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Larger heading */
+    font-weight: bold;
 }
+
+/* Profile Picture Styling */
 .profile-picture {
-    width: 25px;
-    height: 30px;
-    border-radius: 75%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     object-fit: cover;
     position: absolute;
-    top: 75px;
-    left: 75px;
+    top: 2px;
+    left: 20px;
+    border: 4px solid #FF6347; /* Tomato border for contrast */
 }
+
+/* Navigation Styling */
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #FF4500; /* Vivid Orange-Red */
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 nav ul {
     list-style-type: none;
@@ -40,53 +49,72 @@ nav ul {
 }
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 25px;
 }
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #F0E68C; /* Khaki text */
+    font-weight: bold;
+    transition: color 0.3s;
 }
+nav ul li a:hover {
+    color: #FFD700; /* Gold hover effect */
+}
+
+/* Section Styling */
 .section-content {
-    background-color: #fff;
-    color: #004D40; /* Emerald Green text */
-    padding: 2rem;
-    margin: 1rem;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: justify;
+    background-color: #1A1F29; /* Charcoal Gray */
+    color: #F0E68C; /* Khaki text */
+    padding: 2.5rem;
+    margin: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 99, 71, 0.5); /* Tomato glow effect */
+    transition: transform 0.3s;
 }
+.section-content:hover {
+    transform: scale(1.02);
+}
+
+/* Button Styling */
 .download-button {
-    background-color: #FFA726; /* Warm Orange */
+    background-color: #FF6347; /* Tomato */
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1.5rem;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 25px;
+    font-weight: bold;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 15px;
+    transition: background 0.3s, box-shadow 0.3s;
 }
 .download-button:hover {
     background-color: #FFD700; /* Gold hover effect */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
 }
+
+/* Footer Styling */
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background-color: #FFD700; /* Gold */
-    color: #004D40; /* Emerald Green text */
+    padding: 1.5rem 0;
+    background-color: #FF4500; /* Vivid Orange-Red */
+    color: #0C0F14; /* Dark contrast text */
 }
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: square;
+    padding-left: 25px;
 }
 </style>
 </head>
 <body>
+
 <header>
 <div class="header-content">
-<img src="https://drive.google.com/file/d/1Z6doVuWF_m6QxszhrHhbNqAs8S2gOTfz/view?usp=drivesdk.jpg" alt="Your Profile Picture" class="profile-picture">
+<img src="https://drive.google.com/file/d/1YbOwEPQVEcsw5qdBMr5Pz0SqHGeSM99X/view?usp=drivesdk.jpg" alt="Your Profile Picture" class="profile-picture">
 <h1>MANOJ KUMAR</h1>
 <p>STUDENT</p>
 </div>
 </header>
+
 <nav>
 <ul>
 <li><a href="#objective">OBJECTIVE</a></li>
@@ -96,21 +124,23 @@ ul {
 <li><a href="#resume">RESUME</a></li>
 </ul>
 </nav>
+
 <section id="objective">
 <div class="section-content">
 <h2>OBJECTIVE</h2>
-<p>Enthusiastic and detail-oriented Computer Science student with a strong foundation in programming and problem-solving. Seeking opportunities to apply technical skills and gain hands-on experience in software development and related fields.
-</p>
+<p>Enthusiastic and detail-oriented Computer Science student with a strong foundation in programming and problem-solving. Seeking opportunities to apply technical skills and gain hands-on experience in software development and related fields.</p>
 </div>
 </section>
+
 <section id="education">
 <div class="section-content">
 <h2>EDUCATION</h2>
-<p1>BSc. COMPUTER SCIENCE </p1>
+<p1>BSc. COMPUTER SCIENCE</p1>
 <br>Bishop appasamy college of arts and science</br>
 <br>Coimbatore, Tamil Nadu. </br>
 </div>
 </section>
+
 <section id="skills">
 <div class="section-content">
 <h2>SKILLS</h2>
@@ -122,6 +152,7 @@ ul {
 </ul>
 </div>
 </section>
+
 <section id="projects">
 <div class="section-content">
 <h2>Projects</h2>
@@ -130,6 +161,7 @@ ul {
 </ul>
 </div>
 </section>
+
 <section id="resume">
 <div class="section-content">
 <center>
@@ -138,9 +170,11 @@ ul {
 </center>
 </div>
 </section>
+
 <footer>
 <p>&copy; 2025 MANOJ KUMAR</p>
 </footer>
+
 <script>
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -156,5 +190,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 </script>
+
 </body>
 </html>
